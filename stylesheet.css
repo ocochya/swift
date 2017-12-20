@@ -1,0 +1,62 @@
+
+p {
+    border-style: double;
+	border-color: #f9d6b1;
+    border-width: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    background: #381c00;
+	/* please change background colour to suit all pages if possible, make sure the hyperlink text can still been seen when its been clicked on! bc it changes colour */
+    opacity: 1;
+    color: #ffffff;
+    font-size: 25px;
+	font-family: "Times New Roman";
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+     font-size:150px;
+}
+h2 {
+    color: #ffffff;
+    text-align: center;
+     font-size: 35px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a05700;
+	
+}
+
+li {
+	float: left;	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #7c4300;
+}
+
+/* background colours for sections */
+body {
+    background-image: url("images/background.png") 
+	/* put a diff background in hereeee! make sure theres a folder in each section with the file named the same */
+
+}
